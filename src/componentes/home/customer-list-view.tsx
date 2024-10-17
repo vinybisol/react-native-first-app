@@ -64,7 +64,6 @@ export default function CustomerListView() {
             <Modal
                 animationType="fade"
                 visible={modalVisible}
-                transparent={true}
                 onRequestClose={() => {
                     setModalVisible(!modalVisible);
                 }}>

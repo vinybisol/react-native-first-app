@@ -19,10 +19,11 @@ export default function CustomerItemView({ customer, onPressOpenModal, deleteIte
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        alignItems: 'center'
 
     },
     title: {
-        fontSize: 32,
+        fontSize: 48,
         fontFamily: 'Roboto',
     },
 })
